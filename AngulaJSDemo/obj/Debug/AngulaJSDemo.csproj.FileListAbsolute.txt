@@ -1,0 +1,16 @@
+E:\Gen4\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\AngulaJSDemo.dll
+E:\Gen4\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\AngulaJSDemo.pdb
+E:\Gen4\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\obj\Debug\AngulaJSDemo.csprojResolveAssemblyReference.cache
+E:\Gen4\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\obj\Debug\AngulaJSDemo.dll
+E:\Gen4\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\obj\Debug\AngulaJSDemo.pdb
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\AngulaJSDemo.dll
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\AngulaJSDemo.pdb
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\mscorlib.dll
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\normidna.nlp
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\normnfc.nlp
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\normnfd.nlp
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\normnfkc.nlp
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\bin\normnfkd.nlp
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\obj\Debug\AngulaJSDemo.csprojResolveAssemblyReference.cache
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\obj\Debug\AngulaJSDemo.dll
+D:\New folder\AngulaJSDemo\AngulaJSDemo\AngulaJSDemo\obj\Debug\AngulaJSDemo.pdb

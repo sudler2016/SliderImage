@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+   <meta content="charset=utf-8">
+	<title>AngularJS Animate Slider</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" > <!--maximum-scale=1.0, user-scalable=0">-->
+   
+    <script src="Scripts/JSFile/angular.min.js"></script>
+    <script src="Scripts/JSFile/Update.js"></script>
+    <script src="Scripts/JSFile/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="Scripts/JSFile/bootstrap.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    
+  
+<!--    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />-->
+
+    <body ng-controller="MainCtrl"> 
+      
+        
+
+       
+       <div class="navbar">
+      <ul class="nav navbar-nav">      
+        <li ng-class="navClass('home')"><a href='E:/Slider_Images/AngulaJSDemo/AngulaJSDemo/AngulaJSDemo/home.html'>Home</a></li>
+        <li ng-class="navClass('about')"><a href='#/about'>About Us</a></li>
+        <li ng-class="navClass('contact')"><a href='#/contact'>Contact Us</a></li>
+      </ul>
+              <div ng-view> </div>
+    </div>
+        <table border="0" align="center">
+            <tr>
+                <td>
+                    
+                    <div class="container slider">
+
+                        
+                         
+                   <!-- <a href="#" ng-click="showPrev();" class="ls-wrapper arrows ls-responsive">
+                           </a>-->
+                        <!-- enumerate all photos -->
+                        <a class="arrow prev" href="#" ng-click="showNext()"> 
+                            <img src="Images/prv.png" style="height: 50px; width: 50px" />
+                        </a>
+                        <a class="arrow next" href="#" ng-click="showPrev()">
+                            <img src="Images/nxt.png" style="height: 50px; width: 50px;"/>
+
+                        </a>
+                        <img ng-repeat="photo in photos" class="slide slide-animation nonDraggableImage" ng-swipe-right="showNext()" ng-swipe-left="showPrev()"
+                            ng-hide="!isCurrentSlideIndex($index)" ng-src="{{photo.src}}" style="width: 800px; height: 400px;" />
+                        <!-- prev / next controls -->
+
+                        
+                        <!-- extra navigation controls -->
+                        <nav class="nav">
+                            <div class="wrapper">
+                               
+                                <img ng-repeat="photo in photos"><a href="#" ng-class="{'active':isCurrentSlideIndex($index)}"
+                                    ng-click="setCurrentSlideIndex($index);"></a>
+                            </div>
+                        </nav>
+
+                        <!--<a href="#" ng-click="showNext();" class="ls-wrapper arrows ls-responsive">
+                            </a>-->
+                    </div>
+                       
+                    <br />
+                    <br />
+                    <table border="0" align="center">
+                        <tr>
+                            <td>
+                                <div class="Thumbnail" align="center">
+                                    <a href="#" ng-repeat="photo in photos" ng-class="{'active':isCurrentSlideIndex($index)}">
+                                        <img src="{{photo.src}}" alt="{{photo.desc}}" title="{{photo.desc}}" ng-click="showPhoto($index);" style="height: 50px; width: 50px" />
+                                    </a>
+                                </div>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+
+
+
+            </tr>
+
+        </table>
+
+
+        
+
+    
+  
+       </body>
+        </head>
+        </html>
